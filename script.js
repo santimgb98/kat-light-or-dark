@@ -10,6 +10,8 @@ $(document).ready(function () {
             $("body").attr("background","./gatoVolteo.png")
             $("#content").css("background","rgb(43, 47, 63)")
             $("#content").css("border-color","rgb(255, 255, 255)")
+            $(".img-bocadillo").show()            
+            
           } else {
             $(this).text("light mode")
             $(".title").text("kat")
@@ -17,6 +19,7 @@ $(document).ready(function () {
             $("body").attr("background","./gato.png")
             $("#content").css("background","rgb(255, 255, 255)")
             $("#content").css("border-color","rgb(43, 47, 63)")
+            $(".img-bocadillo").hide()
 
           }
     })

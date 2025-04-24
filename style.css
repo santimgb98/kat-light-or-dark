@@ -17,7 +17,14 @@ body{
         height: 3em;
         width: 10em;
         font-size: 1em;
+        transition: transform 0.1s ease;
+
     }
+    
+    #btn_change_mode:hover {
+        transform: scale(1.1);
+    }
+      
 
 #content{
     display: flex;
@@ -30,12 +37,13 @@ body{
 
     margin-left: 11%;
     margin-top: 2em;
-
 }
+
     .text_content{
-        margin-right: 10em;
+        margin-right: 5em;
         margin-left: 5em;
         align-content: center;
+        z-index: 2;
 
     }
     .img{
@@ -43,8 +51,21 @@ body{
         height: 15em;
         margin-right: 5em;
         margin-top: 1.5em;
+        transition: transform 0.3s ease;
+        z-index: 2;
+    }
+    .img:hover {
+        transform: scale(1.2);
+    }
+    .img-bocadillo{
+        z-index: 0;
+        width: 15em;
+        height: 10em;
+        margin-top: 4em;
+        display: none;
 
     }
+      
 
 
 
