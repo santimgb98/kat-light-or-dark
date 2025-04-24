@@ -1,0 +1,51 @@
+body{
+    margin:0;
+}
+#header{
+    display: flex;
+    width: 100%;
+    margin-right: 5%;
+    justify-content: space-around;
+
+}
+    .title{
+        font-size: 3em;
+    }
+    #btn_change_mode{
+        margin-left: 86em;
+        margin-top: 2em
+    }
+
+#content{
+    display: flex;
+
+    border-style: ridge;
+    border-color: rgb(43, 44, 53);
+    width: 80%;
+    height: 20em;
+
+    margin-left: 9%;
+    margin-top: 2em;
+
+}
+    .text_content{
+        margin-right: 5em;
+        margin-left: 5em;
+        align-content: center;
+
+    }
+    .img{
+        width: 25%;
+        height: 15em;
+        margin-right: 5em;
+        margin-top: 2.5em;
+
+    }
+
+
+
+.darkMode{
+    background-color: rgb(43, 47, 63);
+    color: white;
+
+}
